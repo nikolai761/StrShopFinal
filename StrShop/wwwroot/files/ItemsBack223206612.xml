@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item>
+    <ItemName>Краска Белая</ItemName>
+    <Category>
+      <Category>Краски</Category>
+    </Category>
+    <Producer>
+      <Producer>Sniezka</Producer>
+    </Producer>
+  </Item>
+  <Item>
+    <ItemName>Штукатурка</ItemName>
+    <Category>
+      <Category>Смеси</Category>
+    </Category>
+    <Producer>
+      <Producer>Sniezka</Producer>
+    </Producer>
+  </Item>
+  <Item>
+    <ItemName>Краска Красная</ItemName>
+    <Category>
+      <Category>Краски</Category>
+    </Category>
+    <Producer>
+      <Producer>Condor</Producer>
+    </Producer>
+  </Item>
+  <Item>
+    <ItemName>Лак для пола</ItemName>
+    <Category>
+      <Category>Лаки</Category>
+    </Category>
+    <Producer>
+      <Producer>Farbitex</Producer>
+    </Producer>
+  </Item>
+</Items>

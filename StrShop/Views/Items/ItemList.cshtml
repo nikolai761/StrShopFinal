@@ -1,0 +1,11 @@
+﻿<h1>Список товаров</h1>
+<h3>@Model.ItemCategory</h3>
+<h3>@Model.ItemProducer</h3>
+<div class="row mt -5 mb -2">
+    @{
+        foreach (Item item in Model.AllItems)
+        {
+            @Html.Partial("AllItems", item)
+        }
+    }
+</div>

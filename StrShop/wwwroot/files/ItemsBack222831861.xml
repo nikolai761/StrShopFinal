@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item>
+    <ItemName>Краска Белая</ItemName>
+    <Category>
+      <Category>Краски</Category>
+      <Producer>
+        <Producer>Sniezka</Producer>
+      </Producer>
+      <Краска Белая>Краска Белая</Краска Белая>
+      <Краски>Краски</Краски>
+      <Sniezka>Sniezka</Sniezka>
+    </Category>
+    <Item>
+      <ItemName>Штукатурка</ItemName>
+      <Category>
+        <Category>Смеси</Category>
+        <Producer>
+          <Producer>Sniezka</Producer>
+        </Producer>
+        <Штукатурка>Штукатурка</Штукатурка>
+        <Смеси>Смеси</Смеси>
+        <Sniezka>Sniezka</Sniezka>
+      </Category>
+      <Item>
+        <ItemName>Краска Красная</ItemName>
+        <Category>
+          <Category>Краски</Category>
+          <Producer>
+            <Producer>Condor</Producer>
+          </Producer>
+          <Краска Красная>Краска Красная</Краска Красная>
+          <Краски>Краски</Краски>
+          <Condor>Condor</Condor>
+        </Category>
+        <Item>
+          <ItemName>Лак для пола</ItemName>
+          <Category>
+            <Category>Лаки</Category>
+            <Producer>
+              <Producer>Farbitex</Producer>
+            </Producer>
+            <Лак для пола>Лак для пола</Лак для пола>
+            <Лаки>Лаки</Лаки>
+            <Farbitex>Farbitex</Farbitex>
+          </Category>
+        </Item>
+      </Item>
+    </Item>
+  </Item>
+</Items>
