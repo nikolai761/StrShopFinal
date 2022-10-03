@@ -18,9 +18,11 @@ namespace StrShop.Controllers
     public class AccountController : Controller
     {
         private readonly DBconnection dBConnection;
-        public AccountController(DBconnection dBConnection)
+        public ShopCart _shopcart;
+        public AccountController(DBconnection dBConnection, ShopCart _shopcart)
         {
             this.dBConnection = dBConnection;
+            this._shopcart = _shopcart;
         }
         [HttpGet]
         public IActionResult Registration()
@@ -103,7 +105,7 @@ namespace StrShop.Controllers
 
         public async Task<IActionResult> Logout()
         {
-            
+           
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("SignIn", "Account");
         }

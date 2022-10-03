@@ -52,7 +52,17 @@ namespace StrShop.Controllers
                     items = _AllItems.Items.Where(i => i.Category.CategoryName.Equals("Краски")).OrderBy(i => i.id);
                     currCategory = "Краски";
                 }
-                
+                if (string.Equals("met", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    items = _AllItems.Items.Where(i => i.Category.CategoryName.Equals("Металлопрокат")).OrderBy(i => i.id);
+                    currCategory = "Металлопрокат";
+                }
+                if (string.Equals("pil", category, StringComparison.OrdinalIgnoreCase))
+                {
+                    items = _AllItems.Items.Where(i => i.Category.CategoryName.Equals("Пиломатериалы")).OrderBy(i => i.id);
+                    currCategory = "Пиломатериалы";
+                }
+
             }
 
             var obj = new ItemListViewModel
